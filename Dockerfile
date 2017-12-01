@@ -4,6 +4,7 @@ RUN apt-get update \
  && apt-get install -y \
     openssl \
     certbot=0.10.2-1 \
+    cron \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
